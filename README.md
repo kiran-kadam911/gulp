@@ -10,19 +10,6 @@ To install the required packages use
 npm install
 ```
 
-## Features
-- Target as multi purpose theme. Follow the latest ui design, modern feel & fully responsive using PostCSS.
-- Theme will provide config like,
-	- base unit setting
-	- define font recommended to import Web Fonts
-	- colors scheme for primary, secondary color, link color, header & footer bgcolor
-	- Header options like fixed or normal
-	- Layout option 12 column grid fluid/fixed using minimum width, inner & outer gutter
-	- Social connect
-	- Footer copyright option
-- Fontawesome icons will used
-- Modular gulp tasks for compiling and linting
-
 ## Working on CSS
   - The project uses [PostCSS](https://postcss.org/) for managing variables and
 provide the needed browser support.

@@ -27,7 +27,7 @@ provide the needed browser support.
   ```
 
 ## Linting JS and CSS
-  - Linting Javascript and CSS files along with fix Linting Errors & formatting.
+  - Linting Javascript and CSS files along with fix Linting Errors & formatting.<br />
   Script to lint js
   ```
   gulp lint:js
@@ -51,4 +51,8 @@ provide the needed browser support.
   - File watcher
   ```
   npm run watch
+  ```
+  OR
+  ```
+  gulp watch
   ```

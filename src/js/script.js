@@ -1,6 +1,6 @@
 (($, Drupal) => {
   const drupal = Drupal;
-  drupal.behaviors.journalTiles = {
+  drupal.behaviors.customScript = {
     attach: () => {},
   };
 })(jQuery, Drupal);

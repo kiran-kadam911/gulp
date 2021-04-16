@@ -1,5 +1,5 @@
 # Gulp
-Modular gulp tasks for compiling, linting & image optimization.
+Modular Gulp tasks using v4 for compiling, linting & image optimization.
 
 ## Pre-requisites
 Before starting, ensure that you are using at least the latest LTS release of

@@ -6,7 +6,10 @@ var path = require('path'),
   sourcemaps = require('gulp-sourcemaps'),
   postcssCustomProperties = require('postcss-custom-properties'),
   nested = require('postcss-nested'),
+  partials = require("postcss-partial-import"),
   cssImport = require('postcss-import'),
+  postcssCustomMedia = require('postcss-custom-media'),
+  pixelstorem = require('postcss-pixels-to-rem'),
   autoprefixer = require('autoprefixer'),
   cleanCSS = require('gulp-clean-css'),
   plumber = require('gulp-plumber'),
@@ -68,6 +71,11 @@ gulp.task('lint:css-fix', function () {
 // Build CSS files.
 gulp.task('build:css', function () {
   var plugins = [
+    partials({
+      prefix: '_',
+      extension: '.css'
+    }),
+    postcssCustomMedia(),
     cssImport(),
     postcssCustomProperties({
       preserve: false
@@ -76,6 +84,7 @@ gulp.task('build:css', function () {
     autoprefixer({
       overrideBrowserslist: ['last 2 version']
     }),
+    pixelstorem(),
     rtl()
   ];
   return gulp.src(paths.styles.source + 'styles.css')

@@ -6,7 +6,7 @@
 /*
   Base.
  */
-@import "base/variables";
+@import "utils/init";
 @import "base/base";
 
 /*

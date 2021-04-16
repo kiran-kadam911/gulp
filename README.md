@@ -13,8 +13,16 @@ npm install
 ## Working on CSS
   - The project uses [PostCSS](https://postcss.org/) for managing variables and
 provide the needed browser support.
-  - With extension `.css` we can use SCSS/Post-CSS syntax or features.
+  - With extension `.css` we can use SCSS/PostCSS syntax or it's features.
   - Included RTL feature which convert LTR CSS to RTL for directional css.
+  - BEM classes feature available.
+  - PX to REM converstion available.
+    - Default base for conversion is `1rem = 16px`.
+    - Default output unit for `<value>px is rem`.
+    - More info: https://www.npmjs.com/package/postcss-pixels-to-rem
+  - Media queries breakpoints available for managing FE in mobile/ipad/desktop devices.
+    - `src/css/utils/_breakpoints.css`
+    - How to use see: `src/css/components/header.css`
   - Included CleanCSS & Auto-prefixer.
   ```
   gulp build:css
@@ -29,16 +37,20 @@ provide the needed browser support.
 ## Linting JS and CSS
   - Linting Javascript and CSS files along with fix Linting Errors & formatting.\
   
-  Script to lint js
+  Script to lint JS
   ```
   gulp lint:js
   ```
-  Script to lint css
+  Script to Fix javaScript errors & Format JS file.
+  ```
+  gulp js-fix-prettier
+  ```
+  Script to lint CSS
   ```
   gulp lint:css
   ```
 
-## Images
+## Image optimization
   - The images designated for your custom theme can be placed in the `images/` folder. We have gulp task to optimized images.
   ```
   gulp images

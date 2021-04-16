@@ -20,7 +20,7 @@ provide the needed browser support.
     - Default base for conversion is `1rem = 16px`.
     - Default output unit for `<value>px` is `rem`.
     - More info: https://www.npmjs.com/package/postcss-pixels-to-rem
-  - Media queries breakpoints for mobile/ipad/desktop devices.
+  - Media query breakpoints for mobile/ipad/desktop devices.
     - `src/css/utils/_breakpoints.css`
     - How to use see: `src/css/components/header.css`
   - Included CleanCSS & Auto-prefixer.

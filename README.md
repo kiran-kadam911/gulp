@@ -18,9 +18,9 @@ provide the needed browser support.
   - BEM classes feature available.
   - PX to REM converstion available.
     - Default base for conversion is `1rem = 16px`.
-    - Default output unit for `<value>px is rem`.
+    - Default output unit for `<value>px` is `rem`.
     - More info: https://www.npmjs.com/package/postcss-pixels-to-rem
-  - Media queries breakpoints available for managing FE in mobile/ipad/desktop devices.
+  - Media queries breakpoints for mobile/ipad/desktop devices.
     - `src/css/utils/_breakpoints.css`
     - How to use see: `src/css/components/header.css`
   - Included CleanCSS & Auto-prefixer.
@@ -35,7 +35,7 @@ provide the needed browser support.
   ```
 
 ## Linting JS and CSS
-  - Linting Javascript and CSS files along with fix Linting Errors & formatting.\
+  - Linting Javascript and CSS files along with fix Linting Errors & formatting.
   
   Script to lint JS
   ```

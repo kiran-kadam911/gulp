@@ -14,6 +14,7 @@ npm install
   - The project uses [PostCSS](https://postcss.org/) for managing variables and
 provide the needed browser support.
   - With extension `.css` we can use SCSS/PostCSS syntax or it's features.
+  - Partial files support like SASS.
   - Included RTL feature which convert LTR CSS to RTL for directional css.
   - BEM classes feature available.
   - PX to REM converstion available.

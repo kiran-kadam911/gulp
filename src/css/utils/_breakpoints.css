@@ -1,6 +1,6 @@
 /* PostCSS Custom Media */
-@custom-media --x-small-viewport (max-width: 575px);
-@custom-media --small-viewport (max-width: 767px);
-@custom-media --medium-viewport (max-width: 991px);
-@custom-media --large-viewport (max-width: 1023px);
-@custom-media --x-large-viewport (min-width: 1190px);
+@custom-media --xs (max-width: 575px);
+@custom-media --sm (max-width: 767px);
+@custom-media --md (max-width: 991px);
+@custom-media --lg (max-width: 1023px);
+@custom-media --xl (min-width: 1190px);

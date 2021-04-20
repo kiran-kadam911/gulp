@@ -9,7 +9,7 @@
   justify-content: space-between;
   padding: 10px;
 
-  @media (--x-large-viewport) {
+  @media (--xl) {
     padding: 25px;
   }
 

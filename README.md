@@ -50,6 +50,10 @@ provide the needed browser support.
   ```
   gulp lint:css
   ```
+  Script to Fix CSS linting errors
+  ```
+  gulp lint:css-fix
+  ```
 
 ## Image optimization
   - The images designated for your custom theme can be placed in the `images/` folder. We have gulp task to optimized images.

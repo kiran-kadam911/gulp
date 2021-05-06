@@ -1,4 +1,4 @@
-# Gulp
+# Gulp + PostCSS
 Modular Gulp tasks using v4 for compiling, linting & image optimization.
 
 ## Pre-requisites
